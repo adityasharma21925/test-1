@@ -14,5 +14,12 @@ int binary_search(int arr[], int left, int right, int key) {
 }
 
 int main() {
-
+int n;
+scanf("%d",&n);
+int arr[n];
+for(int i=0;i<n;i=i+1)
+{
+    scanf("%d",&arr[i]);
+}
+binary_search(arr,0,n-1,n);
 }
